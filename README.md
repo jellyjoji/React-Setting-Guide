@@ -11,7 +11,7 @@
     - [맥의 경우 시스템 환경설정](#맥의-경우-시스템-환경설정)
     - [jsconfig.json](#jsconfigjson)
     - [jsconfig.json](#jsconfigjson-1)
-  - [.eslintrc.cjs](#eslintrccjs)
+    - [.eslintrc.cjs](#eslintrccjs)
 
 ## 환경 설정
 
@@ -97,7 +97,9 @@ resolve: {
 ![Alt text](image.png)
 맥은 보안 문제로 시스템-보안-pocketbase allow 해줘야 함
 
-`pocketbase/pocketbase serve`
+```bash
+pocketbase/pocketbase serve
+```
 
 ### jsconfig.json
 
@@ -140,7 +142,7 @@ module.exports = {
 }
 ```
 
-## .eslintrc.cjs
+### .eslintrc.cjs
 
 ```jsx
   extends: [
