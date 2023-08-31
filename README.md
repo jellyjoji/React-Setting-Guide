@@ -154,3 +154,11 @@ module.exports = {
   plugins: ['prettier'],
   // Prettier를 사용할 수 있도록 추가 설정합니다.
 ```
+
+### prop-types
+`pnpm add prop-types`
+
+### helmet
+각 페이지별로 파비콘 옆의 페이지 이름 변경 가능 (선택)
+`pnpm add react-helmet-async`
+
