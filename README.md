@@ -158,9 +158,13 @@ module.exports = {
 ### prop-types
 `pnpm add prop-types`
 
+### tan stack query
+`pnpm add @tanstack/react-query`
+
 ### helmet
 각 페이지별로 파비콘 옆의 페이지 이름 변경 가능 (선택)
 `pnpm add react-helmet-async`
 
 ### toast meessage 
 `pnpm add react-hot-toast`
+
